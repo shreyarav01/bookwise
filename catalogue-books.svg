@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 220" fill="none" aria-hidden="true">
+ <defs>
+  <pattern id="cloth" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><path d="M0 0v4" stroke="#9fae90" opacity=".65" stroke-width=".8"/></pattern>
+  <pattern id="paper" width="5" height="4" patternUnits="userSpaceOnUse"><path d="M0 1h5" stroke="#8c9a78" stroke-width=".7"/></pattern>
+  <pattern id="speck" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#d1d6ac" opacity=".5"/></pattern>
+  <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faf3d6"/><stop offset="1" stop-color="#c6cbb1"/></linearGradient>
+ </defs>
+ <!-- Fine registration marks and a stippled pool of library lamplight. -->
+ <ellipse cx="234" cy="190" rx="151" ry="10" fill="#092c23" opacity=".6"/>
+ <path d="M73 188q146 9 313-4M105 195q114 5 212 0M125 200q85 2 125-1" stroke="#9bb695" stroke-width=".8" opacity=".45"/>
+ <g fill="#b8c6a5"><path d="m85 79 1.7 5.4L92 86l-5.3 1.6L85 93l-1.5-5.4L78 86l5.5-1.6Z"/><path d="m368 45 1.8 5.2 5.2 1.8-5.2 1.6L368 59l-1.7-5.4L361 52l5.3-1.8Z"/><path d="m389 132 1.2 3.8 3.8 1.2-3.8 1.1-1.2 3.9-1-3.9-4-1.1 4-1.2Z"/></g>
+ <g stroke="#d2dbc4" stroke-linejoin="round" stroke-linecap="round">
+  <!-- The bottom volume: cloth covers, curved spine and layered page edges. -->
+  <path d="m90 164 175-24 79 19-174 30-80-19q-5-2 0-6Z" fill="#1a4034" stroke-width="1.6"/>
+  <path d="m92 147 175-23 77 18-174 28Z" fill="#748c72" stroke-width="1.2"/>
+  <path d="m170 170 171-27q-4 8 0 16l-171 28q-9-7 0-17Z" fill="#d6dac0" stroke-width="1.2"/>
+  <path d="m170 170 171-27q-4 8 0 16l-171 28q-9-7 0-17Z" fill="url(#paper)"/>
+  <path d="m92 147 78 21q-8 8 0 22l-78-20q-8-10 0-23Z" fill="#315244" stroke-width="1.5"/><path d="m92 147 78 21q-8 8 0 22l-78-20q-8-10 0-23Z" fill="url(#cloth)"/>
+  <path d="M100 151q-5 8 0 18m5-16q-4 8 0 17m50-4q-4 8 0 17m5-16q-5 8 0 17M173 174l159-25m-160 29 149-22m-148 26 160-26" stroke-width=".9"/>
+  <path d="m214 167 18-3-1 20-8-3-10 6Z" fill="#de6348" stroke="#d9634b" stroke-width=".7"/>
+  <!-- A slim reference book, facing in the opposite direction. -->
+  <path d="m106 147 159-24 67 14-155 27-71-14Z" fill="#335745" stroke-width="1.3"/>
+  <path d="m107 135 160-23 64 14-156 26Z" fill="#b9c7a7"/>
+  <path d="m176 152 153-25-1 10-152 25Z" fill="#c1ccb3"/><path d="m180 155 143-23m-144 26 146-23" stroke="#637e68" stroke-width=".7"/>
+  <path d="m106 135 70 17v12l-69-16q-4-6-1-13Z" fill="#526e57"/><path d="m106 135 70 17v12l-69-16q-4-6-1-13Z" fill="url(#cloth)"/>
+  <!-- A large hardback, fore-edge facing left. -->
+  <path d="m83 127 150-29 86 20-152 32-85-20Z" fill="#234c3b" stroke-width="1.5"/>
+  <path d="m84 107 149-28 87 20-153 32Z" fill="#58755d" stroke-width="1.4"/>
+  <path d="m84 109 82 21q-4 9 0 17l-82-19q3-9 0-19Z" fill="#e2e4ca"/>
+  <path d="m87 114 75 18m-75-14 73 17m-74-13 76 18m-74-14 71 17" stroke="#81977a" stroke-width=".8"/>
+  <path d="m166 130 151-32q6 8 2 20l-153 32q-6-11 0-20Z" fill="#254e3a" stroke-width="1.5"/><path d="m166 130 151-32q6 8 2 20l-153 32q-6-11 0-20Z" fill="url(#cloth)"/>
+  <path d="M177 129q-4 7 0 17m5-19q-3 9 0 18m115-42q4 11 1 17m4-18q5 9 1 17"/>
+  <path d="m204 130 64-13m-57 16 48-10" stroke-width="1.5"/>
+  <path d="m234 124 3-2 3 1-3 3Z" fill="#e3dec4"/>
+  <!-- The open volume, with an inked margin and a tomato ribbon at the gutter. -->
+  <path d="M79 97q37-11 85-3 26 2 38 12 31-19 65-26 32-9 67-6l-41 31q-42-1-91 22-46-14-85-10Z" fill="#254c38" stroke-width="2"/>
+  <path d="M84 90q40-8 75-1 34 4 46 14 42-29 121-35l-36 31q-46 1-88 23-42-15-84-11Z" fill="#c2ceae" stroke-width="1.3"/>
+  <path d="M83 86q36-6 75 1 31 4 50 15 47-31 118-36l-38 30q-43 1-85 23-39-15-84-12Z" fill="#d9dfc5"/>
+  <path d="M86 83q40-5 73 2 38 6 51 17-6 6-8 15-41-18-83-13Z" fill="#e5e6ce" stroke-width="1.4"/>
+  <path d="M210 102q37-39 103-45l-26 36q-40 4-85 24 2-11 8-15Z" fill="#d9dfbd" stroke-width="1.4"/>
+  <path d="M90 80q46-4 76 5 29 6 43 17-6 5-7 13-40-21-78-15Z" fill="#e9ead3"/>
+  <path d="M210 101q26-33 60-46 20-8 37-7l-23 41q-38 6-82 26Z" fill="#e6e9cf"/>
+  <!-- Engraved type on the open sheets follows the perspective of the paper. -->
+  <g stroke="#748d71" stroke-width=".9"><path d="M106 85q42-2 69 10m-65-7q43-1 72 11m-68-9q45 0 72 12m-68-9q42 0 68 12m-64-9q36 0 63 10"/><path d="M224 98q28-26 65-36m-68 40q27-25 65-36m-67 40q29-25 65-35m-65 37q30-23 60-32m-52 30q26-18 50-25"/></g>
+  <path d="M207 102q-7-15-32-26-29-13-55-13 16 16 21 29 35-3 61 18Z" fill="#d7dec1" stroke-width="1.2"/>
+  <path d="M207 102q-12-23-30-36-17-14-39-18 10 11 18 32 32 9 47 27Z" fill="url(#leaf)" stroke-width="1.3"/>
+  <path d="M207 101q-13-22-27-33-18-14-36-17m62 53q-17-24-28-31-13-12-24-14" stroke="#94a489" stroke-width=".7"/>
+  <path d="M203 114q7 3 12 1l-3 15-7-3-6 7Z" fill="#e16b50" stroke="#db6348" stroke-width=".6"/>
+ </g>
+ <g fill="#c4d1af" opacity=".5"><circle cx="107" cy="47" r="1.2"/><circle cx="352" cy="101" r="1.3"/><circle cx="62" cy="145" r=".9"/><circle cx="314" cy="34" r="1"/></g>
+</svg>

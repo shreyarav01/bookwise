@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, Cambria, "Times New Roman", serif;
+}
+
+:root {
+  --bg-offwhite: #f8f7f2;
+  --bg-surface: #f0efe7;
+  --bg-card: #fdfdf9;
+  --ink: #10231a;
+  --ink-muted: #4a5d52;
+  --dark-green: #123524;
+  --dark-green-hover: #0b2418;
+  --dark-green-mid: #1d4d36;
+  --tomato: #d9381e;
+  --tomato-hover: #bd2e16;
+  --rule: #dce2da;
+}
+
+/* Tactile horizontal book-shelf scrollbars in soft botanical green-grey */
+.shelf-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #c2ccc0 transparent;
+}
+
+.shelf-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.shelf-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.shelf-scroll::-webkit-scrollbar-thumb {
+  background-color: #c2ccc0;
+  border-radius: 9999px;
+}
+
+.shelf-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #123524;
+}
+
+/* Subtle realistic book spine crease overlay */
+.book-spine-crease {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 24, 16, 0.26) 0%,
+    rgba(248, 247, 242, 0.24) 3.5%,
+    rgba(8, 24, 16, 0.08) 6%,
+    rgba(8, 24, 16, 0) 14%,
+    rgba(8, 24, 16, 0) 94%,
+    rgba(8, 24, 16, 0.12) 100%
+  );
+}
